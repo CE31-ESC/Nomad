@@ -11,9 +11,6 @@ This README will help you understand how to structure and develop such an applic
 *   **React**: The JavaScript library for building dynamic and interactive user interfaces.
 *   **TypeScript**: For adding static types to JavaScript, enhancing code quality, and improving developer experience.
 *   **Tailwind CSS**: A utility-first CSS framework for rapidly styling your application.
-*   **ShadCN UI**: A collection of beautifully designed, accessible, and customizable UI components built with Radix UI and Tailwind CSS.
-*   **Genkit (with Google Gemini)**: A toolkit for building AI-powered features, enabling functionalities like intelligent search, recommendations, or content generation.
-*   **Zod**: A TypeScript-first schema declaration and validation library, perfect for validating form inputs and API responses.
 *   **React Hook Form**: For efficient and flexible form management in React.
 *   **Lucide React**: A library providing a comprehensive set of clean and consistent icons.
 *   **Date-fns**: A modern JavaScript date utility library for handling dates and times.
@@ -345,7 +342,7 @@ Create interfaces for all major data structures: `Destination`, `Hotel`, `Room`,
 *   **`src/lib/utils.ts`**: The `cn` function is already provided by ShadCN. You can add other general utilities here.
 *   **`src/lib/constants.ts`**: Store mock data (destinations, hotels, rooms, reviews) and UI-related constants (max guests, price ranges).
 
-## Phase 5: Integrating AI with Genkit
+## Phase 5: Integrating AI with Genkit If you want to (Currently I don't want to)
 
 Now, let's add AI capabilities.
 
